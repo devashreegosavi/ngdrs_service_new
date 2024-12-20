@@ -110,8 +110,6 @@ const getUsers = (request, response) => {
       console.error('Error inserting data:', err);
       response.status(500).json({ success: false, message: 'Internal server error' });
     }
-
-
   }
 
   module.exports = {

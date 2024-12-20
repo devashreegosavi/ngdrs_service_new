@@ -40,6 +40,7 @@ app.get('/', (request, response) => {
   app.get('/getpwdfromdb/:username',db.getpwdfromdb)
   app.post('/addusercitizen', db.instusercitizen)
 
+  
   //app.get('/getdistrictbystateid/:stateid', db.getDistrictBystateId)
 
   /*app.get('/getdistrictbystateid/:stateid', (req, res) => {
